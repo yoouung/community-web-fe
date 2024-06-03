@@ -4,6 +4,7 @@ import { Navigate } from "react-router";
 
 import Home from "./pages";
 import PostList from "./pages/post/postList";
+import SignIn from "./pages/user/signIn";
 
 function Router() {
   return (
@@ -11,6 +12,8 @@ function Router() {
       <Routes>
         <Route path="/" element={<Home />}>
           <Route index element={<Navigate to="posts" />} />
+
+          <Route path="signin" element={<SignIn />} />
 
           <Route path="posts">
             <Route index element={<PostList />} />
