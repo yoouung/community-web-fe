@@ -5,7 +5,7 @@ import { PostPreview } from "../../components/postPreview";
 
 const PostListContainer = styled.div`
   width: 600px;
-  margin: 30px auto;
+  margin: 0 auto;
 `;
 
 const Description = styled.div`

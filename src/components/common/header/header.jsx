@@ -62,6 +62,8 @@ const ProfileImage = styled.img`
 const Header = () => {
   const location = window.location;
 
+  // TODO: add back icon condition
+
   // TODO: add modal event
 
   return (
