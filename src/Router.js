@@ -6,6 +6,7 @@ import Home from "./pages";
 import PostList from "./pages/post/postList";
 import SignIn from "./pages/user/signIn";
 import SignUp from "./pages/user/signUp";
+import UpdateInfo from "./pages/user/updateInfo";
 
 function Router() {
   return (
@@ -16,6 +17,10 @@ function Router() {
 
           <Route path="signin" element={<SignIn />} />
           <Route path="signup" element={<SignUp />} />
+
+          <Route path="users">
+            <Route path="update-info" element={<UpdateInfo />} />
+          </Route>
 
           <Route path="posts">
             <Route index element={<PostList />} />

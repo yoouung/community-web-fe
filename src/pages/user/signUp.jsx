@@ -2,7 +2,7 @@ import React from "react";
 import {
   FormSection,
   Title,
-  InputForm,
+  InputSection,
   InputItem,
   ProfileImageWrapper,
   AdditionalFunc,
@@ -19,7 +19,7 @@ const SignUp = () => {
     <>
       <FormSection>
         <Title>회원가입</Title>
-        <InputForm>
+        <InputSection>
           <InputItem>
             <span className="input-name">프로필 사진*</span>
             <HelperText>*프로필 사진을 추가해주세요.</HelperText>
@@ -30,8 +30,8 @@ const SignUp = () => {
               <input type="file" name="profile-image" accept="image/*" />
             </ProfileImageWrapper>
           </InputItem>
-        </InputForm>
-        <InputForm>
+        </InputSection>
+        <InputSection>
           <InputItem>
             <span className="input-name">이메일*</span>
             <div className="input-wrapper">
@@ -80,7 +80,7 @@ const SignUp = () => {
             </div>
             <HelperText>*helper text</HelperText>
           </InputItem>
-        </InputForm>
+        </InputSection>
       </FormSection>
       <SubmitBtn style={{ width: "280px", height: "30px" }}>회원가입</SubmitBtn>
       <AdditionalFunc

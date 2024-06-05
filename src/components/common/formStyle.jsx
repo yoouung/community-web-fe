@@ -16,7 +16,7 @@ export const Title = styled.div`
   line-height: 38px;
 `;
 
-export const InputForm = styled.form`
+export const InputSection = styled.form`
   margin: 15px;
   height: auto;
   display: flex;
