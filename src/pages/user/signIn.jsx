@@ -3,7 +3,7 @@ import { HelperText, SubmitBtn } from "../../styles/commonStyles";
 import {
   FormSection,
   Title,
-  InputForm,
+  InputSection,
   InputItem,
   AdditionalFunc,
 } from "../../components/common/formStyle";
@@ -17,7 +17,7 @@ const SignIn = () => {
     <>
       <FormSection>
         <Title>로그인</Title>
-        <InputForm>
+        <InputSection>
           <InputItem>
             <span className="input-name">이메일</span>
             <input className="input" name="email" id="email" placeholder="이메일을 입력하세요." />
@@ -32,7 +32,7 @@ const SignIn = () => {
             />
           </InputItem>
           <HelperText>*helper text</HelperText>
-        </InputForm>
+        </InputSection>
       </FormSection>
       <SubmitBtn
         style={{
