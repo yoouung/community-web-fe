@@ -7,6 +7,7 @@ import PostList from "./pages/post/postList";
 import SignIn from "./pages/user/signIn";
 import SignUp from "./pages/user/signUp";
 import UpdateInfo from "./pages/user/updateInfo";
+import UpdatePwd from "./pages/user/updatePwd";
 
 function Router() {
   return (
@@ -20,6 +21,7 @@ function Router() {
 
           <Route path="users">
             <Route path="update-info" element={<UpdateInfo />} />
+            <Route path="update-pwd" element={<UpdatePwd />} />
           </Route>
 
           <Route path="posts">
