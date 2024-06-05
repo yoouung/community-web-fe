@@ -7,6 +7,7 @@ import {
   ProfileImageWrapper,
   Title,
   AdditionalFunc,
+  Toast,
 } from "../../components/common/formStyle";
 import { HelperText, Modal, ModalBackdrop, SubmitBtn } from "../../styles/commonStyles";
 import profile from "../../images/userimage.png";
@@ -38,23 +39,6 @@ const ProfileImageOverlay = styled.div`
     justify-content: center;
     align-items: center;
   }
-`;
-
-const Toast = styled.div`
-  background-color: #aca0eb;
-  width: 100px;
-  height: 40px;
-  border-radius: 20px;
-
-  color: white;
-  font-size: 14px;
-
-  display: none;
-  justify-content: center;
-  align-items: center;
-
-  position: fixed;
-  bottom: 30px;
 `;
 
 const UpdateInfo = () => {

@@ -107,3 +107,20 @@ export const AdditionalFunc = styled.span`
     cursor: pointer;
   }
 `;
+
+export const Toast = styled.div`
+  background-color: #aca0eb;
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+
+  color: white;
+  font-size: 14px;
+
+  display: none;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;
+  bottom: 30px;
+`;
