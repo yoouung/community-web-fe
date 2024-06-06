@@ -8,6 +8,7 @@ import SignIn from "./pages/user/signIn";
 import SignUp from "./pages/user/signUp";
 import UpdateInfo from "./pages/user/updateInfo";
 import UpdatePwd from "./pages/user/updatePwd";
+import Contents from "./pages/post/contents";
 
 function Router() {
   return (
@@ -26,6 +27,7 @@ function Router() {
 
           <Route path="posts">
             <Route index element={<PostList />} />
+            <Route path="contents" element={<Contents />} />
           </Route>
         </Route>
       </Routes>
