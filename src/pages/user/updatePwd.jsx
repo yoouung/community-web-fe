@@ -6,7 +6,7 @@ import {
   InputSection,
   Title,
   Toast,
-} from "../../components/common/formStyle";
+} from "../../components/common/userStyle";
 import { HelperText, SubmitBtn } from "../../styles/commonStyles";
 
 const UpdatePwd = () => {

@@ -6,7 +6,7 @@ import {
   InputItem,
   ProfileImageWrapper,
   AdditionalFunc,
-} from "../../components/common/formStyle";
+} from "../../components/common/userStyle";
 import { HelperText, SubmitBtn } from "../../styles/commonStyles";
 import plus from "../../images/icons/plus.png";
 
