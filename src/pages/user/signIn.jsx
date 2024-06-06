@@ -6,7 +6,7 @@ import {
   InputSection,
   InputItem,
   AdditionalFunc,
-} from "../../components/common/formStyle";
+} from "../../components/common/userStyle";
 
 const SignIn = () => {
   // TODO: add form validation

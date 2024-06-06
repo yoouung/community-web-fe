@@ -8,9 +8,10 @@ import {
   Title,
   AdditionalFunc,
   Toast,
-} from "../../components/common/formStyle";
-import { HelperText, Modal, ModalBackdrop, SubmitBtn } from "../../styles/commonStyles";
+} from "../../components/common/userStyle";
+import { HelperText, ModalBackdrop, SubmitBtn } from "../../styles/commonStyles";
 import profile from "../../images/userimage.png";
+import MenuModal from "../../components/menuModal";
 
 const ProfileImageOverlay = styled.div`
   width: 140px;
@@ -79,20 +80,11 @@ const UpdateInfo = () => {
 
       <Toast>수정 완료</Toast>
 
-      <Modal>
-        <span className="modal-title">회원탈퇴 하시겠습니까?</span>
-        <div className="modal-contents">
-          <span>작성된 게시글과 댓글은 삭제됩니다.</span>
-          <div className="modal-btn-container">
-            <button className="modal-btn" style={{ backgroundColor: "#242424", color: "#fff" }}>
-              취소
-            </button>
-            <button className="modal-btn" style={{ backgroundColor: "#c4a5fa" }}>
-              확인
-            </button>
-          </div>
-        </div>
-      </Modal>
+      <MenuModal
+        category="user-delete"
+        message="회원탈퇴 하시겠습니까?"
+        contents="작성된 게시글과 댓글은 삭제됩니다."
+      />
     </>
   );
 };
