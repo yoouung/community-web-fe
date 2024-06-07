@@ -45,7 +45,7 @@ const Comment = ({ comment }) => {
     <CommentContainer>
       <CommentInfo>
         <div className="writer-info">
-          <img className="userimage" src={sampleProfile} alt="user" />
+          <image className="userimage" src={sampleProfile} alt="user" />
           <span className="writer">닉네임</span>
           <span className="date">{comment.created_at}</span>
         </div>

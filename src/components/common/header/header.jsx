@@ -43,7 +43,7 @@ const Title = styled.span`
   line-height: 32px;
 `;
 
-const ProfileImage = styled.img`
+const ProfileImage = styled.image`
   width: 40px;
   height: 40px;
 
@@ -70,7 +70,7 @@ const Header = () => {
     <HeaderContainer>
       <HeaderWrapper>
         <BackButton onClick={() => window.history.back()}>
-          <img src={back} alt="back" />
+          <image src={back} alt="back" />
         </BackButton>
         <Title onClick={() => (location.href = "/")}>아무 말 대잔치</Title>
         <ProfileImage alt="user" src={user} />
