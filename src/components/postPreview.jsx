@@ -75,7 +75,7 @@ export const PostPreview = ({ post }) => {
       <hr style={{ margin: "16px" }} />
       <PostWriter>
         {/* TODO: update src after connecting server */}
-        <img className="userimage" src={profile} alt="user" />
+        <image className="userimage" src={profile} alt="user" />
         <span className="writer">{post.nickname}</span>
       </PostWriter>
     </Post>

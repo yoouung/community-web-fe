@@ -46,7 +46,7 @@ const PostWriter = styled.div`
   align-items: center;
   padding: 0 15px;
 
-  img {
+  image {
     width: 33px;
     height: 33px;
     border-radius: 50%;
@@ -198,7 +198,7 @@ const Contents = () => {
         <Title>게시글 제목</Title>
         <div className="post-overview-info">
           <PostWriter>
-            <img alt="user" src={sampleProfile} />
+            <image alt="user" src={sampleProfile} />
             <span style={{ fontWeight: "500" }}>사용자이름</span>
             <span style={{ marginLeft: "20px", fontSize: "14px" }}></span>
           </PostWriter>
@@ -210,7 +210,7 @@ const Contents = () => {
 
       <PostContent>
         <div className="post-image">
-          <img className="post-image" src={samplePost} alt="image" />
+          <image className="post-image" src={samplePost} alt="image" />
         </div>
         <div className="post-text" id="post-text">
           {postContents}

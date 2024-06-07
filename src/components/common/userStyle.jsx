@@ -65,7 +65,7 @@ export const InputItem = styled.div`
     font-size: 14px;
   }
 
-  img {
+  image {
     width: 140px;
     height: 140px;
     border-radius: 50%;
@@ -79,7 +79,7 @@ export const ProfileImageWrapper = styled.section`
   align-items: center;
   padding-top: 20px;
 
-  img {
+  image {
     width: 140px;
     height: 140px;
     border-radius: 50%;
