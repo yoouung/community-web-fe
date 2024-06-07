@@ -9,6 +9,8 @@ import SignUp from "./pages/user/signUp";
 import UpdateInfo from "./pages/user/updateInfo";
 import UpdatePwd from "./pages/user/updatePwd";
 import Contents from "./pages/post/contents";
+import PostWrite from "./pages/post/write";
+import PostUpdate from "./pages/post/update";
 
 function Router() {
   return (
@@ -28,6 +30,8 @@ function Router() {
           <Route path="posts">
             <Route index element={<PostList />} />
             <Route path="contents" element={<Contents />} />
+            <Route path="new" element={<PostWrite />} />
+            <Route path="update" element={<PostUpdate />} />
           </Route>
         </Route>
       </Routes>
