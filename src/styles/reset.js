@@ -33,7 +33,7 @@ export const reset = css`
   del,
   dfn,
   em,
-  img,
+  image,
   ins,
   kbd,
   q,
