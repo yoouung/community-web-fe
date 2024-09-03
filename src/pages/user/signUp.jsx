@@ -25,7 +25,7 @@ const SignUp = () => {
             <HelperText>*프로필 사진을 추가해주세요.</HelperText>
             <ProfileImageWrapper>
               <label htmlFor="profile-image">
-                <image src={plus} alt="profile" />
+                <img src={plus} alt="profile" />
               </label>
               <input type="file" name="profile-image" accept="image/*" />
             </ProfileImageWrapper>

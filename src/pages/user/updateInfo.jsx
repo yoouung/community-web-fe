@@ -54,7 +54,7 @@ const UpdateInfo = () => {
             <span className="input-name">프로필 사진*</span>
             <ProfileImageWrapper>
               <label htmlFor="profile-image">
-                <image className="user-image" alt="profile" src={profile} />
+                <img className="user-image" alt="profile" src={profile} />
               </label>
               <ProfileImageOverlay>
                 <label htmlFor="profile-image">변경</label>

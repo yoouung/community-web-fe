@@ -2,6 +2,7 @@ import { css } from "@emotion/react";
 
 export const reset = css`
   @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap");
 
   html,
   body {

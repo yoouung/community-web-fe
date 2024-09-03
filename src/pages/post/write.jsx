@@ -104,7 +104,7 @@ const PostWrite = () => {
           <PostFormItem>
             <span className="item-name">이미지</span>
             <input type="file" name="post-image" accept="image/*" />
-            <image className="item-image" alt="image-preview" />
+            <img className="item-image" alt="preview" />
           </PostFormItem>
         </PostForm>
 

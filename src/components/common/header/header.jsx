@@ -40,10 +40,11 @@ const BackButton = styled.button`
 const Title = styled.span`
   font-weight: 500;
   font-size: 28px;
+  font-family: "Bagel Fat One", cursive;
   line-height: 32px;
 `;
 
-const ProfileImage = styled.image`
+const ProfileImage = styled.img`
   width: 40px;
   height: 40px;
 
@@ -70,7 +71,7 @@ const Header = () => {
     <HeaderContainer>
       <HeaderWrapper>
         <BackButton onClick={() => window.history.back()}>
-          <image src={back} alt="back" />
+          <img src={back} alt="back" />
         </BackButton>
         <Title onClick={() => (location.href = "/")}>아무 말 대잔치</Title>
         <ProfileImage alt="user" src={user} />
